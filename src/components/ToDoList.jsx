@@ -1,5 +1,6 @@
+
 import React from "react";
-import { ToDoItem } from "./ToDoItem";
+import { ToDoItem } from "./TodoItem";
 
 export default function ToDoList({ todos, onDelete, onToggle, onEdit }) {
   if (!todos.length) return <p className="empty">No tasks yet.</p>;
